@@ -8,15 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "NSString+Test.h"
-#import "NSArray+Test1.h"
 
 int main(int argc, const char * argv[])
 {
-
-    NSArray *ary = [NSArray array];
-    [ary f];
-        
-    [[NSString new] f];
+    id obj = [NSArray array];
+    [obj f];
     
     return 0;
 }
