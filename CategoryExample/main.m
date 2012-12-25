@@ -7,16 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+Test.h"
+#import "NSArray+Test1.h"
 
 int main(int argc, const char * argv[])
 {
 
-    @autoreleasepool {
+    NSArray *ary = [NSArray array];
+    [ary f];
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-    }
+    [[NSString new] f];
+    
     return 0;
 }
 

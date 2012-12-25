@@ -10,6 +10,9 @@
 		BE1BE8511689AC5900AE37FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1BE8501689AC5900AE37FD /* Foundation.framework */; };
 		BE1BE8541689AC5900AE37FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BE8531689AC5900AE37FD /* main.m */; };
 		BE1BE8581689AC5900AE37FD /* CategoryExample.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE1BE8571689AC5900AE37FD /* CategoryExample.1 */; };
+		BE1BE86F1689AE1600AE37FD /* NSString+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BE86E1689AE1600AE37FD /* NSString+Test.m */; };
+		BE1BE8701689B65C00AE37FD /* NSArray+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BE8671689AD8000AE37FD /* NSArray+Test1.m */; };
+		BE1BE8711689B65F00AE37FD /* NSArray+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BE86A1689ADBD00AE37FD /* NSArray+Test2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,12 @@
 		BE1BE8531689AC5900AE37FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE1BE8561689AC5900AE37FD /* CategoryExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategoryExample-Prefix.pch"; sourceTree = "<group>"; };
 		BE1BE8571689AC5900AE37FD /* CategoryExample.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CategoryExample.1; sourceTree = "<group>"; };
+		BE1BE8661689AD8000AE37FD /* NSArray+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Test1.h"; sourceTree = "<group>"; };
+		BE1BE8671689AD8000AE37FD /* NSArray+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Test1.m"; sourceTree = "<group>"; };
+		BE1BE8691689ADBD00AE37FD /* NSArray+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Test2.h"; sourceTree = "<group>"; };
+		BE1BE86A1689ADBD00AE37FD /* NSArray+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Test2.m"; sourceTree = "<group>"; };
+		BE1BE86D1689AE1600AE37FD /* NSString+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Test.h"; sourceTree = "<group>"; };
+		BE1BE86E1689AE1600AE37FD /* NSString+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Test.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,8 @@
 		BE1BE8521689AC5900AE37FD /* CategoryExample */ = {
 			isa = PBXGroup;
 			children = (
+				BE1BE86C1689ADFA00AE37FD /* NSString */,
+				BE1BE8651689ACE500AE37FD /* NSArray */,
 				BE1BE8531689AC5900AE37FD /* main.m */,
 				BE1BE8571689AC5900AE37FD /* CategoryExample.1 */,
 				BE1BE8551689AC5900AE37FD /* Supporting Files */,
@@ -86,6 +97,26 @@
 				BE1BE8561689AC5900AE37FD /* CategoryExample-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1BE8651689ACE500AE37FD /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BE8661689AD8000AE37FD /* NSArray+Test1.h */,
+				BE1BE8671689AD8000AE37FD /* NSArray+Test1.m */,
+				BE1BE8691689ADBD00AE37FD /* NSArray+Test2.h */,
+				BE1BE86A1689ADBD00AE37FD /* NSArray+Test2.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		BE1BE86C1689ADFA00AE37FD /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BE86D1689AE1600AE37FD /* NSString+Test.h */,
+				BE1BE86E1689AE1600AE37FD /* NSString+Test.m */,
+			);
+			name = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE1BE8541689AC5900AE37FD /* main.m in Sources */,
+				BE1BE86F1689AE1600AE37FD /* NSString+Test.m in Sources */,
+				BE1BE8701689B65C00AE37FD /* NSArray+Test1.m in Sources */,
+				BE1BE8711689B65F00AE37FD /* NSArray+Test2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
